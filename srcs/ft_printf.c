@@ -6,7 +6,7 @@
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/21 17:48:30 by debaxter          #+#    #+#             */
-/*   Updated: 2019/01/21 17:48:35 by debaxter         ###   ########.fr       */
+/*   Updated: 2019/01/23 13:01:12 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,7 @@ int		ft_printf(const char *restrict fmt, ...)
 	va_copy(e.ap[1], e.ap[0]);
 	while (fmt[e.i])
 	{
-		if (fmt[e.i] == '{')
-			check_settings(fmt, &e);
-		else if (fmt[e.i] == '%' && fmt[e.i + 1] != '%')
+		if (fmt[e.i] == '%' && fmt[e.i + 1] != '%')
 			print_conversion(fmt, &e);
 		else if (fmt[e.i] == '%' && fmt[e.i + 1] == '%')
 		{

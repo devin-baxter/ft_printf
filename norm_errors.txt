@@ -1,0 +1,847 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    norm_errors.txt                                    :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: debaxter <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/23 12:39:31 by debaxter          #+#    #+#              #
+#    Updated: 2019/01/23 13:11:37 by debaxter         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Norme: ./ft_atoi.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_atoi
+
+Norme: ./ft_bzero.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_bzero
+
+Norme: ./ft_itoa.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_itoa
+
+Norme: ./ft_itoa_base.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_itoa_base
+
+Norme: ./ft_ltoa.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_ltoa
+
+Norme: ./ft_strchr.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strchr
+
+Norme: ./ft_strcpy.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strcpy
+
+Norme: ./ft_ltoa_base.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_ltoa_base
+
+Norme: ./ft_printf.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before init_flag
+Error (line 15): bad spacing after init_flag
+Error (line 27): bad spacing before print_conversion
+Error (line 27): bad spacing after print_conversion
+Error (line 35): bad spacing before ft_printf
+
+Norme: ./ft_strlen.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strlen
+
+Norme: ./ft_strlower.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strlower
+
+Norme: ./ft_strdup.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strdup
+
+Norme: ./ft_strjoin.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strjoin
+
+Norme: ./ft_strncmp.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strncmp
+
+Norme: ./ft_strnew.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strnew
+
+Norme: ./ft_strsub.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_strsub
+
+Norme: ./ft_uitoa.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_uitoa
+
+Norme: ./ft_uitoa_base.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_uitoa_base
+
+Norme: ./ft_ultoa.c
+:Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_ultoa
+Norme: ./ft_ultoa_base.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_ultoa_base
+Norme: ./init_args_cont.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before init_wstr_arg
+Error (line 15): bad spacing after init_wstr_arg
+Error (line 27): bad spacing before init_wchar_arg
+Norme: ./init_args.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before init_long_double
+Error (line 15): bad spacing after init_long_double
+Error (line 27): bad spacing before init_prec_arg
+Error (line 27): bad spacing after init_prec_arg
+Error (line 39): bad spacing before init_int_arg
+Error (line 39): bad spacing after init_int_arg
+Error (line 51): bad spacing before init_str_arg
+Error (line 51): bad spacing after init_str_arg
+Error (line 63): bad spacing before init_char_arg
+Norme: ./parse_spec.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before spec_fd
+Error (line 15): bad spacing after spec_fd
+Error (line 24): bad spacing before get_spec_more
+Error (line 24): bad spacing after get_spec_more
+Error (line 42): bad spacing before get_spec
+Norme: ./print_char.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before print_char_width
+Error (line 15): bad spacing after print_char_width
+Error (line 22): bad spacing before print_null_char
+Error (line 22): bad spacing after print_null_char
+Error (line 31): bad spacing before print_char
+Norme: ./print_dice.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before print_dice
+Norme: ./print_invalid.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before print_invalid_width
+Error (line 15): bad spacing after print_invalid_width
+Error (line 22): bad spacing before print_invalid_spec
+Norme: ./parse_args.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before get_mod
+Error (line 15): bad spacing after get_mod
+Error (line 41): bad spacing before get_width
+Error (line 41): bad spacing after get_width
+Error (line 51): bad spacing before get_prec
+Error (line 51): bad spacing after get_prec
+Error (line 72): bad spacing before get_flag
+Error (line 72): bad spacing after get_flag
+Error (line 96): bad spacing before get_tag
+Norme: ./print_base.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before print_base_pre
+Error (line 15): bad spacing after print_base_pre
+Error (line 38): bad spacing before print_base_width
+Error (line 38): bad spacing after print_base_width
+Error (line 65): bad spacing before check_base_prec
+Error (line 65): bad spacing after check_base_prec
+Error (line 90): bad spacing before print_base
+Norme: ./print_prec_e.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before get_exponent
+Error (line 15): bad spacing after get_exponent
+Error (line 43): bad spacing before get_prec_num_e
+Error (line 43): bad spacing after get_prec_num_e
+Error (line 62): bad spacing before ftoa_prec_e
+Error (line 62): bad spacing after ftoa_prec_e
+Error (line 82): bad spacing before print_prec_e
+Norme: ./print_non_printable.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before print_twenty_to_thirty
+Error (line 15): bad spacing after print_twenty_to_thirty
+Error (line 41): bad spacing before print_ten_to_twenty
+Error (line 41): bad spacing after print_ten_to_twenty
+Error (line 65): bad spacing before print_zero_to_ten
+Error (line 65): bad spacing after print_zero_to_ten
+Error (line 91): bad spacing before spec_non_printable
+Norme: ./print_prec_f.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before get_prec_num_f
+Error (line 15): bad spacing after get_prec_num_f
+Error (line 30): bad spacing before ftoa_prec_f
+Error (line 30): bad spacing after ftoa_prec_f
+Error (line 51): bad spacing before print_prec_f
+Norme: ./print_prec_a.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before get_a_expo
+Error (line 15): bad spacing after get_a_expo
+Error (line 39): bad spacing before hex_prec
+Error (line 39): bad spacing after hex_prec
+Error (line 67): bad spacing before ftoa_prec_a
+Error (line 67): bad spacing after ftoa_prec_a
+Error (line 94): bad spacing before print_prec_a_else
+Error (line 94): bad spacing after print_prec_a_else
+Error (line 103): bad spacing before print_prec_a
+Norme: ./print_ptraddr.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ptraddr_prec
+Error (line 15): bad spacing after ptraddr_prec
+Error (line 39): bad spacing before print_ptraddr_width
+Error (line 39): bad spacing after print_ptraddr_width
+Error (line 48): bad spacing before print_ptraddr
+Norme: ./print_prec_g.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before delete_zero
+Error (line 15): bad spacing after delete_zero
+Error (line 24): bad spacing before ftoa_prec_fg
+Error (line 24): bad spacing after ftoa_prec_fg
+Error (line 48): bad spacing before ftoa_prec_eg
+Error (line 48): bad spacing after ftoa_prec_eg
+Error (line 69): bad spacing before check_form
+Error (line 69): bad spacing after check_form
+Error (line 92): bad spacing before print_prec_g
+Norme: ./print_prec_tools.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before ft_str_prec
+Error (line 15): bad spacing after ft_str_prec
+Error (line 41): bad spacing before ft_ftoa
+Error (line 41): bad spacing after ft_ftoa
+Error (line 70): bad spacing before print_prec_width
+Error (line 70): bad spacing after print_prec_width
+Error (line 92): bad spacing before nan_inf_long
+Error (line 92): bad spacing after nan_inf_long
+Error (line 111): bad spacing before nan_inf
+Norme: ./print_spec.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before spec_base
+Error (line 15): bad spacing after spec_base
+Error (line 38): bad spacing before spec_precision
+Error (line 38): bad spacing after spec_precision
+Error (line 66): bad spacing before spec_char
+Error (line 66): bad spacing after spec_char
+Error (line 87): bad spacing before spec_unsint
+Error (line 87): bad spacing after spec_unsint
+Error (line 108): bad spacing before spec_int
+Norme: ./print_str.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before print_str_width
+Error (line 15): bad spacing after print_str_width
+Error (line 25): bad spacing before print_null_str
+Error (line 25): bad spacing after print_null_str
+Error (line 37): bad spacing before print_str
+Norme: ./print_wchar.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before put_wchar
+Error (line 15): bad spacing after put_wchar
+Error (line 20): bad spacing before put_wc
+Error (line 20): bad spacing after put_wc
+Error (line 45): bad spacing before print_wchar_minus
+Error (line 45): bad spacing after print_wchar_minus
+Error (line 52): bad spacing before print_wchar
+Norme: ./print_spec_cont.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before spec_ptraddr
+Error (line 15): bad spacing after spec_ptraddr
+Error (line 29): bad spacing before spec_wchar
+Error (line 29): bad spacing after spec_wchar
+Error (line 51): bad spacing before spec_return
+Error (line 51): bad spacing after spec_return
+Error (line 66): bad spacing before spec_percent
+Norme: ./print_wstr.c
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 15): bad spacing before put_wstr_c
+Error (line 15): bad spacing after put_wstr_c
+Error (line 20): bad spacing before put_wstr
+Error (line 20): bad spacing after put_wstr
+Error (line 44): bad spacing before get_wstr_len
+Error (line 44): bad spacing after get_wstr_len
+Error (line 65): bad spacing before print_wstr_minus
+Error (line 65): bad spacing after print_wstr_minus
+Error (line 85): bad spacing before print_wstr
+
+Norme: ./includes/ft_printf.h
+Error: global scope bad aligned
+Error: 42 header must be followed by one empty line
+Error (line 1): line has 82 characters
+Error (line 2): line has 82 characters
+Error (line 3): line has 82 characters
+Error (line 4): line has 82 characters
+Error (line 5): line has 82 characters
+Error (line 6): line has 82 characters
+Error (line 7): line has 82 characters
+Error (line 8): line has 82 characters
+Error (line 9): line has 82 characters
+Error (line 10): line has 82 characters
+Error (line 11): line has 82 characters
+Error (line 14): preprocessor block must be followed by one empty line
+Error (line 21): preprocessor block must be followed by one empty line
+Error (line 26): preprocessor block must be followed by one empty line
+Error (line 28): must have only tabulations between struct and s_pf_tag.
+Error (line 28, col 14): bad spacing
+Error (line 30): must begin only by tabulations
+Error (line 30): bad indentation
+Error (line 30, col 7): bad spacing
+Error (line 31): must begin only by tabulations
+Error (line 31): bad indentation
+Error (line 31, col 7): bad spacing
+Error (line 32, col 1): bad spacing
+Error (line 34): must have only tabulations between struct and s_pf_flag.
+Error (line 34, col 14): bad spacing
+Error (line 36): must begin only by tabulations
+Error (line 36): bad indentation
+Error (line 36, col 7): bad spacing
+Error (line 37): must begin only by tabulations
+Error (line 37): bad indentation
+Error (line 37, col 7): bad spacing
+Error (line 38): must begin only by tabulations
+Error (line 38): bad indentation
+Error (line 38, col 7): bad spacing
+Error (line 39): must begin only by tabulations
+Error (line 39): bad indentation
+Error (line 39, col 7): bad spacing
+Error (line 40): must begin only by tabulations
+Error (line 40): bad indentation
+Error (line 40, col 7): bad spacing
+Error (line 41): must begin only by tabulations
+Error (line 41): bad indentation
+Error (line 41, col 7): bad spacing
+Error (line 42): must begin only by tabulations
+Error (line 42): bad indentation
+Error (line 42, col 7): bad spacing
+Error (line 43): must begin only by tabulations
+Error (line 43): bad indentation
+Error (line 43, col 7): bad spacing
+Error (line 44, col 1): bad spacing
+Error (line 46): must have only tabulations between enum and e_pf_mod.
+Error (line 46, col 12): bad spacing
+Error (line 48): must begin only by tabulations
+Error (line 48): bad indentation
+Error (line 49): must begin only by tabulations
+Error (line 49): bad indentation
+Error (line 50): must begin only by tabulations
+Error (line 50): bad indentation
+Error (line 51): must begin only by tabulations
+Error (line 51): bad indentation
+Error (line 52): must begin only by tabulations
+Error (line 52): bad indentation
+Error (line 53): must begin only by tabulations
+Error (line 53): bad indentation
+Error (line 54): must begin only by tabulations
+Error (line 54): bad indentation
+Error (line 55): must begin only by tabulations
+Error (line 55): bad indentation
+Error (line 56): must begin only by tabulations
+Error (line 56): bad indentation
+Error (line 57, col 1): bad spacing
+Error (line 59): Struct s_pf_env bad aligned
+Error (line 59): must have only tabulations between struct and s_pf_env.
+Error (line 59, col 14): bad spacing
+Error (line 61): must begin only by tabulations
+Error (line 61): bad indentation
+Error (line 61, col 11): bad spacing
+Error (line 62): must begin only by tabulations
+Error (line 62): bad indentation
+Error (line 62, col 8): bad spacing
+Error (line 63): must begin only by tabulations
+Error (line 63): bad indentation
+Error (line 63, col 12): bad spacing
+Error (line 64): must begin only by tabulations
+Error (line 64): bad indentation
+Error (line 64, col 13): bad spacing
+Error (line 65): must begin only by tabulations
+Error (line 65): bad indentation
+Error (line 65, col 12): bad spacing
+Error (line 66): must begin only by tabulations
+Error (line 66): bad indentation
+Error (line 66, col 7): bad spacing
+Error (line 67): must begin only by tabulations
+Error (line 67): bad indentation
+Error (line 67, col 7): bad spacing
+Error (line 68): must begin only by tabulations
+Error (line 68): bad indentation
+Error (line 68, col 7): bad spacing
+Error (line 69, col 1): bad spacing

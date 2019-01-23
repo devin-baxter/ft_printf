@@ -6,7 +6,7 @@
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/21 17:45:03 by debaxter          #+#    #+#             */
-/*   Updated: 2019/01/21 17:45:08 by debaxter         ###   ########.fr       */
+/*   Updated: 2019/01/23 12:59:45 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,9 +60,9 @@ typedef struct      s_pf_env
 {
     va_list         ap[2];
     char            *out;
-    t_printf_tag    tag;
-    t_printf_flag   flag;
-    t_printf_mod    mod;
+    t_pf_tag    tag;
+    t_pf_flag   flag;
+    t_pf_mod    mod;
     int             fd;
     int             i;
     int             ret;
@@ -105,7 +105,7 @@ void			check_digit_prec(t_pf_env *e);
 void			print_base(t_pf_env *e, char type, long val);
 void			print_base_width(t_pf_env *e, char type);
 void			print_base_pre(t_pf_env *e, char type, long val);
-void			check_base_prec(t_pf_env *e, char type)
+void			check_base_prec(t_pf_env *e, char type);
 void			print_char(t_pf_env *e, char c);
 void			print_null_char(t_pf_env *e);
 void			print_char_width(t_pf_env *e);
