@@ -6,7 +6,7 @@
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 17:57:23 by debaxter          #+#    #+#             */
-/*   Updated: 2019/09/18 19:05:52 by debaxter         ###   ########.fr       */
+/*   Updated: 2019/09/20 15:55:25 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,17 @@ void	ft_printf(const char *fmt, ...)
 	va_end(args);
 }
 
-int		main(int argc, const char *argv[])
+int		main(void)
 {
-	ft_printf("Hello world!\nI am %d years old and I have %i cats.\nThey are Astrid and Declan, and they are %d months old.\n", 30, 2, 5);
+	int		age;
+	int		cats;
+	int		cats_age;
+
+	age = 30;
+	cats = 2;
+	cats_age = 5;
+	ft_printf("Hello world!\n");
+	ft_printf("I am %d years old and I have %i cats.\n", age, cats);
+	ft_printf("They are %d months old.\n", cats_age);
 	return (0);
 }
