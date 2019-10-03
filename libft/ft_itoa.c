@@ -16,7 +16,7 @@ static int	ft_int_size(int n)
 {
 	int size;
 
-	if (n > 2147483647 || n < -2147483648)
+	if (n > 2147483647 || n < -2147483647)
 	{
 		write(1, "ERROR: Number too large for int\n", 33);
 		return (0);
