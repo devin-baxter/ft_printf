@@ -3,60 +3,72 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: drbaxter <drbaxter@student.42.fr>          +#+  +:+       +#+        */
+/*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/29 17:57:23 by debaxter          #+#    #+#             */
-/*   Updated: 2019/10/07 12:52:15 by drbaxter         ###   ########.fr       */
+/*   Created: 2018/09/26 13:35:09 by debaxter          #+#    #+#             */
+/*   Updated: 2019/12/21 16:11:16 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdarg.h>
-#include "libft/libft.h"
+#include "ft_printf.h"
 
-void	ft_printf(const char *fmt, ...)
+#define FLAG_CHK (*p == '-' || *p == '+' || *p == ' ' ||*p == '0' || *p == '#')
+#define LNG_CHK (*p == 'h' || *p == 'l' || *p == 'L' || *p == 'z'\
+		|| *p == 'j' || *p == 't')
+
+void		basic_printf(const char *fmt, ...)
 {
-	va_list	args;
-	int		integer;
+	va_list		ap;
+	char		*p, *sval;
+	int			ival;
+	double		dval;
+	int			w;
+	int			prec;
+	char		len[3];
+	int			flag_count;
 
-	va_start(args, fmt);
-	while (*fmt != '\0')
+	p = fmt;
+	*sval = NULL;
+	ival = 0;
+	dval = 0;
+	flag_count = 0
+	va_start(ap, fmt);
+	while (*p)
 	{
-		if (*fmt == '%')
+		if (*p != '%')
 		{
-			fmt++;
-			if (*fmt == 'd' || *fmt == 'i')
-			{
-				integer = va_arg(args, int);
-				ft_putnbr(integer);
-			}
+			ft_putchar(*p);
+			p++;
 		}
 		else
-			ft_putchar(*fmt);
-		fmt++;
+		{
+			if (FLAG_CHK && flag_count < 6)
+			{
+				ft_parse_flags(*p);
+				flag_count++;
+				p++;
+			}
+			flag_count = 0;
+			else if (ft_isdigit(*p) == 1)
+			{
+				ft_handle_width(*p);
+			}
+
+		}
+		p++;
 	}
-	va_end(args);
 }
 
-
-
-
-
-
-
-
-
-int		main(void)
+int			main(int argc, char *argv[])
 {
-	int		age;
-	int		cats;
-	int		cats_age;
+	char	*str = "I love learning how to code in C!\n";
 
-	age = 30;
-	cats = 2;
-	cats_age = 5;
-	ft_printf("Hello world!\n");
-	ft_printf("I am %d years old and I have %i cats.\n", age, cats);
-	ft_printf("They are %d months old.\n", cats_age);
+	while (*str)
+	{
+		putchar(*str++);
+	}
+	basic_printf("I really do love learning how to code!\n %d\t%i", 8, 42);
 	return (0);
 }
