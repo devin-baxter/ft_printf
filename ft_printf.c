@@ -6,7 +6,7 @@
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/26 13:35:09 by debaxter          #+#    #+#             */
-/*   Updated: 2019/12/21 16:11:16 by debaxter         ###   ########.fr       */
+/*   Updated: 2020/01/06 18:52:45 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,50 +14,39 @@
 #include <stdarg.h>
 #include "ft_printf.h"
 
-#define FLAG_CHK (*p == '-' || *p == '+' || *p == ' ' ||*p == '0' || *p == '#')
-#define LNG_CHK (*p == 'h' || *p == 'l' || *p == 'L' || *p == 'z'\
-		|| *p == 'j' || *p == 't')
-
-void		basic_printf(const char *fmt, ...)
+int		basic_printf(const char *fmt, ...)
 {
+	PF_VARIABLES;
 	va_list		ap;
-	char		*p, *sval;
-	int			ival;
-	double		dval;
-	int			w;
-	int			prec;
-	char		len[3];
-	int			flag_count;
+	pf_flags	flags;
+	pf_len_mod	length;
 
 	p = fmt;
-	*sval = NULL;
-	ival = 0;
-	dval = 0;
-	flag_count = 0
 	va_start(ap, fmt);
 	while (*p)
 	{
-		if (*p != '%')
+		if (*p == '%')
 		{
-			ft_putchar(*p);
-			p++;
+			*p++;
+			if (FLAG_CHK)
+				ft_parse_flags(*p, flags);
+			else if (WIDTH_CHK)
+			{
+				if (!(*width = (char *)malloc(sizeof(char) * 11)))
+					return (1)
+				ft_atoi(*p)
+			}
+			else if (*p == '.')
+			{
+				*p++;
+				if (
+			}
 		}
 		else
 		{
-			if (FLAG_CHK && flag_count < 6)
-			{
-				ft_parse_flags(*p);
-				flag_count++;
-				p++;
-			}
-			flag_count = 0;
-			else if (ft_isdigit(*p) == 1)
-			{
-				ft_handle_width(*p);
-			}
-
+			ft_putchar(*p);
 		}
-		p++;
+		*p++;
 	}
 }
 
