@@ -6,7 +6,7 @@
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/26 13:32:09 by debaxter          #+#    #+#             */
-/*   Updated: 2020/01/06 17:44:11 by debaxter         ###   ########.fr       */
+/*   Updated: 2020/01/13 18:25:46 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,10 @@
 		|| *p == 'j' || *p == 't')
 # define PARSE_FLAGS if (FLAG_CHK) ft_parse_flags(*p, flags);
 # define HANDLE_WIDTH
-
+# define TYPE_CHK (*p == 'd' || *p == 'i' || *p == 'u' || *p == 'f' \
+		|| *p == 'F' || *p == 'e' || *p == 'E' || *p == 'g' || *p == 'G'\
+		|| *p == 'x' || *p == 'X' || *p == 'o' || *p == 's' || *p == 'c'\
+		|| *p == 'p' || *p == 'a' || *p == 'A' ||*p == 'n')
 typedef struct	printf_flags
 {
 	int	minus = 0;
