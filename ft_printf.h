@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: debaxter <debaxter@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/26 13:32:09 by debaxter          #+#    #+#             */
-/*   Updated: 2020/01/13 18:23:35 by debaxter         ###   ########.fr       */
+/*   Updated: 2020/01/20 16:09:30 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,21 +31,40 @@
 		|| *p == 'F' || *p == 'e' || *p == 'E' || *p == 'g' || *p == 'G'\
 		|| *p == 'x' || *p == 'X' || *p == 'o' || *p == 's' || *p == 'c'\
 		|| *p == 'p' || *p == 'a' || *p == 'A' ||*p == 'n')
+
 typedef struct	printf_flags
 {
-	int	minus = 0;
-	int	plus = 0;
-	int	space = 0;
-	int	zero = 0;
-	int	hash = 0;
+	int			minus;
+	int			plus;
+	int			space;
+	int			zero;
+	int			hash;
 }				pf_flags;
 
-typedef struct	printf_length_modifier
+typedef enum	printf_length_modifier
 {
-	int	h = 0;
-	int	l = 0;
-	int	j = 0;
-	int	z = 0;
-}				pf_lengmod;
+	int	h;
+	int	l;
+	int	j;
+	int	z;
+}				pf_length;
+
+typedef enum	printf_type
+{
+	int			d, i, n;
+	unsigned	o, u, x, X;
+	double		a, A, e, E, f, F;
+	char		c, *s;
+	void		*p;
+}				pf_type;
+
+typedef struct	printf_struct
+{
+	pf_flags	flags;
+	int			width;
+	int			prec;
+	pf_length	length;
+	pf_type		type;
+}				pf_struct;
 
 #endif
