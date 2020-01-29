@@ -6,7 +6,7 @@
 /*   By: debaxter <debaxter@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/26 13:35:09 by debaxter          #+#    #+#             */
-/*   Updated: 2020/01/20 15:57:45 by debaxter         ###   ########.fr       */
+/*   Updated: 2020/01/26 13:18:51 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ int		basic_printf(const char *fmt, ...)
 {
 	PF_VARIABLES;
 	va_list		ap;
-	pf_flags	*flags;
-	pf_len_mod	*length;
+	pf_struct	*st;
 
 	p = fmt;
 	va_start(ap, fmt);
@@ -29,10 +28,10 @@ int		basic_printf(const char *fmt, ...)
 		{
 			*p++;
 			if (FLAG_CHK)
-				ft_parse_flags(*p, *flags);
+				ft_parse_flags(*p, *st);
 			else if (WIDTH_CHK)
 			{
-				if (!(*width = (char *)malloc(sizeof(char) * 11)))
+				if (
 					return (1)
 				ft_atoi(*p)
 			}
