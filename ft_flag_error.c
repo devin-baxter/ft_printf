@@ -1,32 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_flag_error.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/04/20 14:29:27 by debaxter          #+#    #+#             */
-/*   Updated: 2020/03/04 20:41:17 by debaxter         ###   ########.fr       */
+/*   Created: 2020/03/09 11:16:58 by debaxter          #+#    #+#             */
+/*   Updated: 2020/03/09 11:18:28 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "basic_printf.h"
 
-char	*ft_strcat(char *s1, char const *s2)
+ft_flag_error(char *p, t_pfstruct *st, unsigned *c)
 {
-	char *c1;
-	char *c2;
-
-	c1 = s1;
-	c2 = (char *)s2;
-	while (*c1)
-		c1++;
-	while (*c2)
-	{
-		*c1 = *c2;
-		c1++;
-		c2++;
-	}
-	*c1 = '\0';
-	return (s1);
+    
 }

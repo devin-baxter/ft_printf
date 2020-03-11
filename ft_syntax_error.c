@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_syntax_error.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: debaxter <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/04/20 14:29:27 by debaxter          #+#    #+#             */
-/*   Updated: 2020/03/04 20:41:17 by debaxter         ###   ########.fr       */
+/*   Created: 2020/03/09 11:14:38 by debaxter          #+#    #+#             */
+/*   Updated: 2020/03/09 11:15:11 by debaxter         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "basic_printf.h"
 
-char	*ft_strcat(char *s1, char const *s2)
+int			ft_syntax_error(char *p, t_pfstruct *st)
 {
-	char *c1;
-	char *c2;
+	unsigned	c;
 
-	c1 = s1;
-	c2 = (char *)s2;
-	while (*c1)
-		c1++;
-	while (*c2)
-	{
-		*c1 = *c2;
-		c1++;
-		c2++;
-	}
-	*c1 = '\0';
-	return (s1);
+	c = 0;
+	ft_flag_error(&p, &st, &c);
+	ft_width_error(&p, &st, &c);
+	ft_period_error(&p, &st, &c);
+	ft_prec_error(&p, &st, &c);
+	ft_length_error(&p, &st, &c);
+	ft_type_error(&p, &st, &c);
 }
